@@ -43,5 +43,5 @@ app.add_page(
     index,
     title="Portfolio de Master | Desarrollador web",
     description="Mi Portafolio como desarrollador web full-stack",
-    image="/logo2.png",
+    image="/logo.png",
 )

@@ -37,8 +37,13 @@ def technologies() -> rx.Component:
                 "icons/icon-github.svg",
                 "Basico"
             ),
+            technology_link(
+                "Reflex",
+                "icons/piton.svg",
+                "Intermedio"
+            ),
             wrap="wrap",
-            spacing="4",
+            spacing="7",
             width="100%",
         ),
         spacing=Size.MEDIUM.value,

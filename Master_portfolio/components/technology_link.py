@@ -3,6 +3,7 @@ from Master_portfolio.styles.styles import Size
 import Master_portfolio.styles.styles as styles
 
 
+
 def technology_link(nombre: str, image: str, nivel: str) -> rx.Component:
     return rx.hstack(
         rx.container(
@@ -22,7 +23,8 @@ def technology_link(nombre: str, image: str, nivel: str) -> rx.Component:
                     size=Size.SMALL.value,
                     style=styles.text_style,
                 ),
-                align="center"
+                align="center",
+                padding=Size.MEDIUM.value
             )
         )
     )

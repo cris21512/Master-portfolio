@@ -6,8 +6,8 @@ from Master_portfolio.components.links import links
 
 
 def header() -> rx.Component:
-    return rx.hstack(
-        rx.avatar(
+    return rx.flex(
+            rx.avatar(
             src="/avatar.jpg",
             radius="full",
             size=Size.BIG.value,
@@ -17,7 +17,7 @@ def header() -> rx.Component:
                 "Soy Cristopher Fuentes",
             ),
             rx.text(
-                "Y soy un:", rx.text.strong("Desarrollador Web Full-Stack junior", style=styles.projects_text_style),
+                "Y soy un:", rx.text.strong(" Desarrollador Web Front-end", style=styles.projects_text_style),
                 size=Size.DEFAULT.value,
                 style=styles.title_style,
             ),
@@ -31,4 +31,5 @@ def header() -> rx.Component:
             spacing=Size.SMALL.value,
         ),
         spacing=Size.DEFAULT.value,
+        flex_direction=["column", "column", "row"],
     )

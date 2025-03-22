@@ -25,10 +25,11 @@ def index() -> rx.Component:
                 extras(),
                 rx.divider(color_scheme="tomato"),
                 footer(),
-        spacing=Size.MEDIUM.value,
-        padding_x=EmSize.MEDIUM.value,
-        padding_y=EmSize.BIG.value,
-        max_width=MAX_WIDTH,
+        spacing=Size.BIG.value,
+        margin_y=Size.BIG.value,
+        padding_y=EmSize.MEDIUM.value,
+        padding=EmSize.MEDIUM.value,
+        max_width=styles.MAX_WIDTH,
         width="100%"
             )
         ),

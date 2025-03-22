@@ -14,7 +14,7 @@ def link_project_1() -> rx.Component:
             "Pagina Web Oficial",
             "Web oficial de Chito y Cris",
             "Como creador de contenido, he creado mi propia web de links para mis redes sociales y contenido.",
-            "/proyect_1.jpg"
+            "/proyect.png"
         ),
         info_2(
             "plane",

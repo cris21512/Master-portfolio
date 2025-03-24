@@ -26,9 +26,9 @@ STYLESHEETS = [
 ]
 
 BASE_STYLE = {
-    "background-image": "radial-gradient(circle, rgba(173,216,230,0.8) 2px, transparent 2px)",
+    "background-image": "radial-gradient(circle, rgba(173,216,230,1) 2px, transparent 2px)",
     "background-size": "30px 30px",
-    "background-color": "#f5e1c8",
+    "background-color": "#CFC5B0",
     rx.heading:{
         "color":TexColor.TITLE.value,
         "font_family": "'Raleway', sans-serif",
